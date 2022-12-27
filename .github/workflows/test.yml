@@ -1,6 +1,6 @@
 name: Test Project 
 #trigger 
-on:
+on: push
 jobs:
   test:
     runs-on: macos-12
