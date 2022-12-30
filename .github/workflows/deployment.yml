@@ -16,6 +16,7 @@ jobs:
       - name: Run tests
         run: npm test 
   deploy: 
+    needs: test
     runs-on: macos-12
     steps: 
       - name: Get code
